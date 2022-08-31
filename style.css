@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FAEAE3;
+  font-size: 14px;
+}
+body .wrapper {
+  max-width: 500px;
+  min-height: 100vh;
+  margin: 5% auto;
+}
+body .wrapper .grid-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .wrapper .grid-wrapper .subimg .fordt {
+  max-width: 100%;
+  height: 380px;
+  border-radius: 10px 0px 0px 10px;
+}
+body .wrapper .grid-wrapper .subimg .formobile {
+  display: none;
+}
+body .wrapper .grid-wrapper .content {
+  max-width: 50%;
+  background-color: #fff;
+  height: 380px;
+  border-radius: 0px 10px 10px 0px;
+}
+body .wrapper .grid-wrapper .content .perfume {
+  padding: 25px 25px 0px 25px;
+}
+body .wrapper .grid-wrapper .content .perfume h3 {
+  font-family: "Montserrat";
+  font-size: 0.6em;
+  letter-spacing: 4px;
+  opacity: 70%;
+}
+body .wrapper .grid-wrapper .content .perfume h1 {
+  margin-top: 20px;
+  font-family: "Fraunces";
+  line-height: 0.9;
+}
+body .wrapper .grid-wrapper .content .perfume p {
+  margin-top: 20px;
+  opacity: 70%;
+  line-height: 20px;
+}
+body .wrapper .grid-wrapper .content .perfume #price {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .wrapper .grid-wrapper .content .perfume #price span {
+  font-size: 2em;
+  font-family: "Fraunces";
+  color: hsl(158deg, 36%, 37%);
+}
+body .wrapper .grid-wrapper .content .perfume #price del {
+  margin: 17px 0px 0px 15px;
+  font-size: 0.8em;
+  line-height: 3px;
+  font-family: "Montserrat";
+  opacity: 70%;
+}
+body .wrapper .grid-wrapper .content .perfume .forbtn {
+  margin-top: 25px;
+  background-color: hsl(158deg, 36%, 37%);
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+}
+body .wrapper .grid-wrapper .content .perfume .forbtn .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+body footer {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: hsl(230deg, 47%, 64%);
+}
+body footer .attribution {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-family: "Montserrat";
+}
+body footer .attribution a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+@media (max-width: 600px) {
+  body .wrapper {
+    margin: 5% 15%;
+  }
+  body .wrapper .grid-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  body .wrapper .grid-wrapper > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  body .wrapper .grid-wrapper .subimg .fordt {
+    display: none;
+  }
+  body .wrapper .grid-wrapper .subimg .formobile {
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  body .wrapper .grid-wrapper .content {
+    position: relative;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    min-width: 100%;
+    height: 110%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  body .wrapper .grid-wrapper .content .perfume .forbtn {
+    margin-top: 20px;
+  }
+  body footer {
+    margin-top: 43px;
+  }
+}
