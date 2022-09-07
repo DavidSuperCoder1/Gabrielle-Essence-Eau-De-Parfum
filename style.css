@@ -14,7 +14,7 @@ body {
 }
 body .flex-wrapper {
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +133,7 @@ body footer .attribution a {
 /*******************************Media Query************************************/
 @media (max-width: 768px) {
   body {
-    /*******************************Footer****************************************/
+    /***************************************Footer****************************************/
   }
   body .flex-wrapper {
     display: -ms-grid;
