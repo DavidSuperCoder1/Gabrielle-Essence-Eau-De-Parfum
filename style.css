@@ -90,7 +90,7 @@ body .flex-wrapper .content .perfume .forbtn {
   background-color: hsl(158deg, 36%, 37%);
   padding: 15px;
   display: block;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 body .flex-wrapper .content .perfume .forbtn .add_card {
   display: -webkit-box;
