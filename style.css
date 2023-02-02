@@ -46,9 +46,10 @@ body .flex-wrapper .content .perfume {
 }
 body .flex-wrapper .content .perfume h3 {
   font-family: "Montserrat";
-  font-size: 0.6em;
+  font-size: 0.8em;
   letter-spacing: 4px;
   opacity: 70%;
+  margin-top:20px;
 }
 body .flex-wrapper .content .perfume h1 {
   margin-top: 20px;
@@ -56,16 +57,16 @@ body .flex-wrapper .content .perfume h1 {
   line-height: 0.9;
   padding-right: 20px;
   height: 90px;
-  font-size:2em;
+  font-size:2.5em;
 }
 body .flex-wrapper .content .perfume p {
-  margin-top: 20px;
+  margin-top: 25px;
   opacity: 70%;
   line-height: 20px;
   height: 75px;
 }
 body .flex-wrapper .content .perfume #price {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
