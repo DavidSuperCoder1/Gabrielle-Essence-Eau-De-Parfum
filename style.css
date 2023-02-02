@@ -60,9 +60,9 @@ body .flex-wrapper .content .perfume h1 {
   font-size:2.5em;
 }
 body .flex-wrapper .content .perfume p {
-  margin-top: 35px;
+  margin-top: 30px;
   opacity: 70%;
-  line-height: 20px;
+  line-height: 25px;
   height: 75px;
 }
 body .flex-wrapper .content .perfume #price {
@@ -71,15 +71,16 @@ body .flex-wrapper .content .perfume #price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
 }
 body .flex-wrapper .content .perfume #price span {
-  font-size: 2em;
+  font-size: 2.3em;
   font-family: "Fraunces";
   color: hsl(158deg, 36%, 37%);
 }
 body .flex-wrapper .content .perfume #price del {
   margin: 17px 0px 0px 15px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 3px;
   font-family: "Montserrat";
   opacity: 70%;
