@@ -19,7 +19,7 @@ body .flex-wrapper {
   display: -ms-flexbox;
   display: flex;
   width: 600px;
-  height: 700px;
+  height: 600px;
   /*********************************Images******************************************/
   /*******************************Main Content************************************/
 }
