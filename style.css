@@ -8,7 +8,7 @@
 body {
   min-height: 100vh;
   width: 100%;
-  background-color: #FAEAE3;
+    background-color: rgb(243,235,228);
   font-size: 14px;
   /*******************************Footer************************************/
 }
@@ -184,6 +184,7 @@ body footer .attribution a {
   }
   body .flex-wrapper .content .perfume h1 {
     height: 50px;
+    padding-bottom: 25%;
   }
   body .flex-wrapper .content .perfume p {
     padding-right: 20px;
